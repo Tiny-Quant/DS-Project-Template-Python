@@ -1,0 +1,18 @@
+---
+title: "Report Template"
+author: "Art Tay"
+format:
+  pdf:
+     documentclass: article
+     papersize: letter
+     include-in-header: header.tex
+     bibliography: reference.bib
+     geometry: 
+        - margin=1in
+jupyter: ds-template
+---
+
+```{python}
+import session_info
+session_info.show(html=False)
+```
