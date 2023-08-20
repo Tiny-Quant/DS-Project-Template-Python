@@ -1,0 +1,7 @@
+name: DS-Template
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - ipykernel
+prefix: C:\Users\Admin\anaconda3\envs\DS-Template
